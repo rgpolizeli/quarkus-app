@@ -4,6 +4,6 @@ public class InvalidPostoColetaError extends ResponseError {
     
     public InvalidPostoColetaError(){
         super.code = 527;
-        super.message = "Invalid PostoColeta";
+        super.errorDescription = "Invalid PostoColeta";
     }
 }

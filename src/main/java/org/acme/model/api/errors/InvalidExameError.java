@@ -4,6 +4,6 @@ public class InvalidExameError extends ResponseError {
     
     public InvalidExameError(){
         super.code = 526;
-        super.message = "Invalid Exame";
+        super.errorDescription = "Invalid Exame";
     }
 }
